@@ -1,14 +1,3 @@
----
-title: Comment Toxicity Detector
-emoji: 📈
-colorFrom: red
-colorTo: pink
-sdk: gradio
-sdk_version: 4.31.5
-app_file: app.py
-pinned: false
-license: mit
----
 # Comment Toxicity Detector
 
 This project implements a sentiment analysis  model that’s capable of detecting different types of toxicity like threats, obscenity, insults, and identity-based hate of a given comment. An LSTM-based model has been trained on 153 thousand sequence.
@@ -33,4 +22,3 @@ This project implements a sentiment analysis  model that’s capable of detectin
   - `gradio`
   - `tensorflow==2.15.0`
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
